@@ -1,7 +1,3 @@
----
-description: Jordan Lab
----
-
 # Developing an Integrated Risk Prediction Tool for Colorectal Cancer
 
 ## Motivation
