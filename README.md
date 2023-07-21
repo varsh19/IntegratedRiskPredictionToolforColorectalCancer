@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Developing an Integrated Risk Prediction Tool for Colorectal Cancer](developing_an_integrated _risk_prediction_tool_for_colorectal_cancer.md)
+* [Developing an Integrated Risk Prediction Tool for Colorectal Cancer](developing_an_integrated_risk_prediction_tool_for_colorectal_cancer.md)
 * [Cohort used for the study](cohort-used-for-the-study.md)
 * [Clinical risk factors](clinical-risk-factors/README.md)
   * [Creating the clinical risk model](clinical-risk-factors/creating-the-clinical-risk-model.md)
