@@ -62,22 +62,23 @@ In other words, if you create a confusion matrix
 
 The NRI ranges from -2 to +2, with a value of 0 indicating no improvement or change in risk prediction.
 
-<pre class="language-r" data-overflow="wrap"><code class="lang-r"># Predict probabilities for integrated model
-probs_integrated &#x3C;- predict(model, type = "response", newdata = merged_df)
+```r
+# Predict probabilities for integrated model
+probs_integrated <- predict(model, type = "response", newdata = merged_df)
 
 # Categorize individuals into risk categories based on the predicted probabilities
-categories_without_PRS &#x3C;- cut(probs_clinical, breaks = c(-Inf, 0.5, Inf), labels = c("Low", "High"))
-categories_with_PRS &#x3C;- cut(probs_integrated, breaks = c(-Inf, 0.5, Inf), labels = c("Low", "High"))
+categories_without_PRS <- cut(probs_clinical, breaks = c(-Inf, 0.5, Inf), labels = c("Low", "High"))
+categories_with_PRS <- cut(probs_integrated, breaks = c(-Inf, 0.5, Inf), labels = c("Low", "High"))
 
 # Create a contingency table of predicted risk categories
-contingency_table &#x3C;- table(categories_clinical, categories_integrated)
+contingency_table <- table(categories_clinical, categories_integrated)
 
 # Calculate NRI
-<strong>NRI &#x3C;- (sum(contingency_table[1] + contingency_table[2]) - sum(contingency_table[3] + contingency_table[4])) / sum(contingency_table)
-</strong>
+NRI <- (sum(contingency_table[1] + contingency_table[2]) - sum(contingency_table[3] + contingency_table[4])) / sum(contingency_table)
+
 # Print NRI
 print(NRI)
-</code></pre>
+```
 
 The NRI value obtained is **0.853516**. It suggests a substantial positive improvement in the model's ability to correctly classify individuals into their respective risk categories upon including PRS. This value implies that, on average, there is a considerable increase in the proportion of correctly reclassified individuals into higher or lower-risk categories with the inclusion of PRS as a new predictor. The higher the NRI value, the stronger the improvement in risk prediction.
 
