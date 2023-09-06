@@ -21,7 +21,6 @@
 --prsice PRSice/PRSice_linux
 </code></pre>
 
-{% code overflow="wrap" %}
 ```bash
 Rscript PRSice/PRSice.R 
 --base PGS000785.txt 
@@ -41,4 +40,3 @@ Rscript PRSice/PRSice.R
 --out /ukb_prs/colorectal_cancer/using_prsice/PGS000785/PGS000785_results 
 --prsice PRSice/PRSice_linux
 ```
-{% endcode %}
