@@ -4,12 +4,10 @@
 
 The integrated risk scores were computed using generalized linear models (GLM) in R.
 
-{% code overflow="wrap" %}
 ```r
 model <- glm(PHENO ~ PRS + Age + Sex + height + weight + physical_activity + meat + smoking + alcohol + father_cancer + mother_cancer + sibling_cancer + polyps + crohns_disease + ulcerative_colitis, data = merged_df, family = binomial)
 summary(model)
 ```
-{% endcode %}
 
 ## Results
 
