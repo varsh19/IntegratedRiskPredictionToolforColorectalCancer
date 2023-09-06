@@ -4,7 +4,6 @@
 
 We perform stepwise regression to generate the best model with only the most necessary predictors in R:
 
-{% code overflow="wrap" %}
 ```r
 # Create a new GLM model to bypass the error about number of rows changing
 model1 <- glm(PHENO ~ PRS + Age + Sex + height + weight + physical_activity + meat + smoking + alcohol + father_cancer + mother_cancer + sibling_cancer + polyps + crohns_disease + ulcerative_colitis, data = model_1$model, family = binomial)
@@ -18,7 +17,6 @@ summary(sml1)
 # Print formula
 print(formula(sml1))
 ```
-{% endcode %}
 
 <figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -32,7 +30,6 @@ Similarly, smoking seems to have had predominantly "Never" in its entries, makin
 
 We use "incremental r-squared" to compute the difference in R2 values for the model with and without PRS. R-squared can only be obtained for a linear model, so we perform linear regression. We already have [R2 for the clinical model](../clinical-risk-factors/analyzing-the-results.md#r-squared-r2).
 
-{% code overflow="wrap" %}
 ```r
 # Create a model using linear regression
 integrated_model <- lm(PHENO ~ PRS + Age + Sex + height + weight + physical_activity + meat + smoking + alcohol + father_cancer + mother_cancer + sibling_cancer + polyps + crohns_disease + ulcerative_colitis, data = merged_df, family = binomial)
@@ -43,7 +40,6 @@ integrated_rsq <- summary(integrated_model)$r.squared
 # Print incremental R2
 incremental_rsq <- integrated_rsq - clinical_rsq
 ```
-{% endcode %}
 
 | R2                      |  PGS000074 |  PGS000785 |
 | ----------------------- | ---------: | ---------: |
@@ -89,7 +85,6 @@ The NRI value obtained is **0.853516**. It suggests a substantial positive impro
 
 The area under the curve is computed for the model with and without PRS, and the difference between the two values is obtained. We already have [AUC for the clinical model](../clinical-risk-factors/analyzing-the-results.md#area-under-the-curve-auc).
 
-{% code overflow="wrap" %}
 ```r
 # Compute AUC for the integrated model
 auc_integrated <- roc(merged_df$PHENO, predict(model), type = "response"))$auc
@@ -100,7 +95,6 @@ delta_AUC <- auc_integrated - auc_clinical
 # Print deltaAUC
 print(delta_AUC)
 ```
-{% endcode %}
 
 | AUC                      |  PGS000074 |  PGS000785 |
 | ------------------------ | ---------: | ---------: |
