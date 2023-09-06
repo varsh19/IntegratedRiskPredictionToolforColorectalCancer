@@ -103,4 +103,4 @@ print(delta_AUC)
 
 Just as the previous two metrics, deltaAUC also tells us that the model's accuracy has increased thanks to the addition of PRS as one of the variables.&#x20;
 
-This answers our [research questions](broken-reference) and tells us that the addition of polygenic risk scores has indeed increased the accuracy of predicting the risk of colorectal cancer.
+This answers our [research questions](developing_an_integrated_risk_prediction_tool_for_colorectal_cancer.md) and tells us that the addition of polygenic risk scores has indeed increased the accuracy of predicting the risk of colorectal cancer.
