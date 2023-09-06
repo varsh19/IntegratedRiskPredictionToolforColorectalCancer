@@ -8,9 +8,9 @@ Rscript PRSice/PRSice.R
 --target /home/sharedFolder/referenceData/ukb/imputed_genotypes/ukb_imp_chr#_v3,/home/sharedFolder/referenceData/ukb/imputed_genotypes/ukb_imp_chr1_v3.sample 
 --type bgen
 --snp 0 --chr 1 --bp 2 --A1 3 --A2 4 --stat 5 --pvalue 10
-<strong># --base-maf allelefrequency_effect:0.2
-</strong><strong># --maf 0.01
-</strong>--binary-target T 
+# --base-maf allelefrequency_effect:0.2
+# --maf 0.01
+--binary-target T 
 --no-clump 
 --fastscore
 --ignore-fid 
