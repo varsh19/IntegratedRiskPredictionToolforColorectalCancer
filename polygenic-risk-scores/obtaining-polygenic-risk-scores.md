@@ -2,7 +2,8 @@
 
 ## Commands used to generate the best output (in Linux terminal):
 
-<pre class="language-bash" data-overflow="wrap"><code class="lang-bash">Rscript PRSice/PRSice.R 
+<pre class="language-bash" data-overflow="wrap"><code class="lang-bash">
+Rscript PRSice/PRSice.R 
 --base PGS000074.txt 
 --target /home/sharedFolder/referenceData/ukb/imputed_genotypes/ukb_imp_chr#_v3,/home/sharedFolder/referenceData/ukb/imputed_genotypes/ukb_imp_chr1_v3.sample 
 --type bgen
