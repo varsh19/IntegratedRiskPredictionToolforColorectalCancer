@@ -2,7 +2,7 @@
 
 ## Commands used to generate the best output (in Linux terminal):
 
-<pre class="language-bash" data-overflow="wrap"><code class="lang-bash">
+```bash
 Rscript PRSice/PRSice.R 
 --base PGS000074.txt 
 --target /home/sharedFolder/referenceData/ukb/imputed_genotypes/ukb_imp_chr#_v3,/home/sharedFolder/referenceData/ukb/imputed_genotypes/ukb_imp_chr1_v3.sample 
@@ -20,7 +20,7 @@ Rscript PRSice/PRSice.R
 --quantile 100 --quant-break 10,20,30,40,50,60,70,80,90,100 --quant-ref 50
 --out /ukb_prs/colorectal_cancer/using_prsice/PGS000074/PGS000074_results 
 --prsice PRSice/PRSice_linux
-</code></pre>
+```
 
 ```bash
 Rscript PRSice/PRSice.R 
