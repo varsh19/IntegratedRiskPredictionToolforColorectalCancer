@@ -1,16 +1,22 @@
-# Table of contents
+# Developing an Integrated Risk Prediction Tool for Colorectal Cancer
 
-* [Developing an Integrated Risk Prediction Tool for Colorectal Cancer](developing_an_integrated_risk_prediction_tool_for_colorectal_cancer.md)
-* [Cohort used for the study](cohort-used-for-the-study.md)
-* [Clinical risk factors](clinical-risk-factors/README.md)
-  * [Creating the clinical risk model](clinical-risk-factors/creating-the-clinical-risk-model.md)
-  * [Analyzing the results](clinical-risk-factors/analyzing-the-results.md)
-* [Polygenic risk scores](polygenic-risk-scores/README.md)
-  * [PRSice](polygenic-risk-scores/prsice.md)
-  * [Preparing to use PRSice](polygenic-risk-scores/preparing-to-use-prsice.md)
-  * [Obtaining polygenic risk scores](polygenic-risk-scores/obtaining-polygenic-risk-scores.md)
-  * [Analyzing the results](polygenic-risk-scores/analyzing-the-results.md)
-* [Integrated risk score](integrated-risk-score/README.md)
-  * [Generalized linear models](integrated-risk-score/generalized-linear-models.md)
-  * [Obtaining integrated risk scores](integrated-risk-score/obtaining-integrated-risk-scores.md)
-  * [Analyzing the results](integrated-risk-score/analyzing-the-results.md)
+## Motivation
+
+* Standard colorectal cancer risk predictors which are routinely used in clinical practice to manage preventative treatment include family history of disease and anthropometric risk factors like BMI, age, dietary habits, etc.
+* There is a growing interest in incorporating genetics in colon cancer risk prediction.
+
+## Question
+
+* Can genetic data can be integrated with the standard clinical risk factors to improve colorectal cancer risk prediction?
+* Specifically: What is the gain in accuracy of prediction when genetic data are added to clinical risk factors?
+
+## Approach
+
+* Examine standard risk prediction tools to obtain a list of corresponding fields for these risk factors from biobank data.
+* Obtain colorectal cancer-associated variants from the latest multi-ancestry genome-wide association studies (GWAS) to develop a polygenic risk score (PRS) on the biobank data.
+* Develop an integrated risk tool (IRT) that combines our polygenic risk scores with established risk prediction tools.
+
+## Anticipated results and implications
+
+* This approach would allow us to evaluate the increase in accuracy of the prediction of the risk of colorectal cancer by including genetic risk factors in the form of polygenic risk scores.
+* The integrated risk tool can be used in clinical settings to screen for patients and tailor the diagnoses/treatment regimes accordingly.

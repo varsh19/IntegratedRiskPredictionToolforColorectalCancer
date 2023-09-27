@@ -2,10 +2,12 @@
 
 ## To install PRSice v.2.3.5 (Linux 64 bit)
 
+{% code overflow="wrap" %}
 ```bash
 wget https://github.com/choishingwan/PRSice/releases/download/2.3.5/PRSice_linux.zip
 unzip PRSice_linux.zip
 ```
+{% endcode %}
 
 ## To get the required scoring files
 
@@ -16,15 +18,19 @@ The following scoring files were taken from [PGS Catalog](https://www.pgscatalog
 
 These scoring files were loaded using the following command on the Linux terminal:
 
+{% code overflow="wrap" %}
 ```bash
 wget https://ftp.ebi.ac.uk/pub/databases/spot/pgs/scores/PGS000074/ScoringFiles/PGS000074.txt.gz
 gunzip PGS000074.txt.gz
 ```
+{% endcode %}
 
+{% code overflow="wrap" %}
 ```bash
 wget https://ftp.ebi.ac.uk/pub/databases/spot/pgs/scores/PGS000785/ScoringFiles/PGS000785.txt.gz
 gunzip PGS000785.txt.gz
 ```
+{% endcode %}
 
 ## Quality control of the scoring files
 

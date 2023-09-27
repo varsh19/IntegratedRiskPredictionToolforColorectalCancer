@@ -1,0 +1,17 @@
+# Table of contents
+
+* [Developing an Integrated Risk Prediction Tool for Colorectal Cancer](README.md)
+* [Cohort used for the study](cohort-used-for-the-study.md)
+* [Clinical risk factors](clinical-risk-factors/README.md)
+  * [Creating the clinical dataframe](clinical-risk-factors/creating-the-clinical-dataframe.md)
+  * [Creating the clinical risk model](clinical-risk-factors/creating-the-clinical-risk-model.md)
+  * [Analyzing the results](clinical-risk-factors/analyzing-the-results.md)
+* [Polygenic risk scores](polygenic-risk-scores/README.md)
+  * [PRSice](polygenic-risk-scores/prsice.md)
+  * [Preparing to use PRSice](polygenic-risk-scores/preparing-to-use-prsice.md)
+  * [Obtaining polygenic risk scores](polygenic-risk-scores/obtaining-polygenic-risk-scores.md)
+  * [Analyzing the results](polygenic-risk-scores/analyzing-the-results.md)
+* [Integrated risk score](integrated-risk-score/README.md)
+  * [Generalized linear models](integrated-risk-score/generalized-linear-models.md)
+  * [Obtaining integrated risk scores](integrated-risk-score/obtaining-integrated-risk-scores.md)
+  * [Analyzing the results](integrated-risk-score/analyzing-the-results.md)
