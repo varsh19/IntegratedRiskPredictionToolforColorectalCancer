@@ -12,6 +12,5 @@
   * [Obtaining polygenic risk scores](polygenic-risk-scores/obtaining-polygenic-risk-scores.md)
   * [Analyzing the results](polygenic-risk-scores/analyzing-the-results.md)
 * [Integrated risk score](integrated-risk-score/README.md)
-  * [Generalized linear models](integrated-risk-score/generalized-linear-models.md)
   * [Obtaining integrated risk scores](integrated-risk-score/obtaining-integrated-risk-scores.md)
   * [Analyzing the results](integrated-risk-score/analyzing-the-results.md)
