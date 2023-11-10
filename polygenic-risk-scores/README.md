@@ -38,7 +38,7 @@ Complex diseases occur as a result of many genomic variants, paired with environ
 
 Scientists identify genomic variants associated with complex diseases by comparing the genomes of individuals with and without those diseases.
 
-The enormous amount of genomic data now available allows the, to calculate which variants tend to be found more frequently in groups of people with a given disease. There can be hundreds or even thousands of variants per disease.
+The enormous amount of genomic data now available allows them to calculate which variants tend to be found more frequently in groups of people with a given disease. There can be hundreds or even thousands of variants per disease.
 
 They then use computational and statistical methods to estimate how the collection of a person’s variants affects their risk for a certain disease.
 
