@@ -6,7 +6,7 @@
 --base PGS000074.txt 
 --target /home/sharedFolder/referenceData/ukb/imputed_genotypes/ukb_imp_chr#_v3,/home/sharedFolder/referenceData/ukb/imputed_genotypes/ukb_imp_chr1_v3.sample 
 --type bgen
---snp 0 --chr 1 --bp 2 --A1 3 --A2 4 --stat 5 --pvalue 10
+--snp SNP --chr CHR --bp BP --A1 A1 --A2 A2 --stat BETA --pvalue P
 <strong># --base-maf allelefrequency_effect:0.2
 </strong><strong># --maf 0.01
 </strong>--binary-target T 
@@ -27,7 +27,7 @@ Rscript PRSice/PRSice.R
 --base PGS000785.txt 
 --target /home/sharedFolder/referenceData/ukb/imputed_genotypes/ukb_imp_chr#_v3,/home/sharedFolder/referenceData/ukb/imputed_genotypes/ukb_imp_chr1_v3.sample 
 --type bgen 
---snp 0 --chr 1 --bp 2 --A1 3 --A2 4 --stat 5 --pvalue 10
+--snp SNP --chr CHR --bp BP --A1 A1 --A2 A2 --stat BETA --pvalue P
 # --base-maf allelefrequency_effect:0.2
 # --maf 0.01
 --binary-target T 
