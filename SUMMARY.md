@@ -17,7 +17,7 @@
   * [Analyzing the results](integrated-risk-score/analyzing-the-results.md)
 * [Working with real patient data](working-with-real-patient-data/README.md)
   * [Genetic data from Tempus Labs](working-with-real-patient-data/genetic-data-from-tempus-labs/README.md)
-    * [Imputing the data and obtaining polygenic risk scores](working-with-real-patient-data/genetic-data-from-tempus-labs/imputing-the-data-and-obtaining-polygenic-risk-scores.md)
+    * [Preparing the data and obtaining polygenic risk scores](working-with-real-patient-data/genetic-data-from-tempus-labs/preparing-the-data-and-obtaining-polygenic-risk-scores.md)
     * [Interpreting the scores](working-with-real-patient-data/genetic-data-from-tempus-labs/interpreting-the-scores.md)
   * [Clinical data from Gastroenterology Atlanta](working-with-real-patient-data/clinical-data-from-gastroenterology-atlanta/README.md)
     * [Obtaining integrated scores and understanding the results](working-with-real-patient-data/clinical-data-from-gastroenterology-atlanta/obtaining-integrated-scores-and-understanding-the-results.md)

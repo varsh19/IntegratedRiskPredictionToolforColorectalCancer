@@ -1,8 +1,12 @@
-# Imputing the data and obtaining polygenic risk scores
+# Preparing the data and obtaining polygenic risk scores
+
+## Imputing the data
 
 The VCF files were imputed using the Sanger Imputation Service. The reference consortium chosen was the 1000Genomes Phase3 dataset and the data was pre-phased and imputed using EAGLE2.
 
 <figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Image of the Sanger Imputation Service</p></figcaption></figure>
+
+## Quality control
 
 23 imputed VCF files were obtained for the autosomes and the X chromosome. The files were combined and prepared for input into Plink2.
 
@@ -19,6 +23,8 @@ bgzip output.vcf
 tabix -p vcf output.vcf.gz
 ```
 {% endcode %}
+
+## Obtaining PRS using Plink2
 
 This data was used as target data to compute PRS using Plink. The scoring file used was PGS000785.
 
