@@ -20,7 +20,7 @@ print(formula(sml1))
 ```
 {% endcode %}
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Here, alcohol consumption has a lesser effect on the results than the other factors, so that can also be omitted. This could be due to the nature of the data in the UK Biobank for this column.
 

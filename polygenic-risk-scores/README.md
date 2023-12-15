@@ -22,7 +22,7 @@ Many inherited diseases can be traced to variants in a single gene. These are ca
 
 <div data-full-width="false">
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
