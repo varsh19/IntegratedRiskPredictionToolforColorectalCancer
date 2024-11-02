@@ -43,7 +43,7 @@ G=\begin{cases}
 \end{cases}
 $$
 
-The average score (`--score avg`)is calculated as
+The average score (`--score avg`) is calculated as
 
 $$
 PRS_j = \sum_i{\frac{S_i - G_{ij}}{M_{ij}}}
